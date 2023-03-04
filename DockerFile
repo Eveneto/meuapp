@@ -1,0 +1,14 @@
+# Define a imagem base a ser utilizada
+FROM openjdk:11-jdk-slim
+
+# Copia o arquivo JAR da aplicação para o contêiner
+COPY target/minha-app.jar /app/minha-app.jar
+
+# Define o diretório de trabalho
+WORKDIR /app
+
+# Expõe a porta utilizada pela aplicação
+EXPOSE 8080
+
+# Define o comando que será executado para iniciar a aplicação
+CMD ["java", "-jar", "minha-app.jar"]
