@@ -24,3 +24,7 @@ Com esses passos, sua aplicação deverá estar em execução em um contêiner D
 
 
 Consegui implementar a aplicação, pois tenho conhecimentos de Java e um pouco de Spring, mas devido a não conhecer Docker, acabei não conseguindo completar a tarefa
+
+Acredito que com um pouco mais de estudo, eu conseguiria fazer uma ótima implementação 
+
+Espero que isto seja levado em consideração 
